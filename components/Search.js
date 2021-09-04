@@ -10,7 +10,7 @@ const Search = () => {
   let arrayOfLocationsArrays = [];
   useEffect(() => {
     const asyncFn = async () => {
-      const res = awaitaxios.get(
+      const res = await axios.get(
         "https://loinzapi.netlify.app/.netlify/functions/locations"
       );
       setLocations(res.data);
