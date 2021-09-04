@@ -16,7 +16,7 @@ const Search = () => {
       setLocations(res.data);
     };
 
-    asyncFun();
+    asyncFn();
   }, []);
 
   if (locations.length > 0) {
