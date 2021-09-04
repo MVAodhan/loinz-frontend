@@ -10,9 +10,7 @@ const Footer = () => {
       alignItems="center"
       justifyContent="center"
       h="15vh"
-    >
-      <Heading as="h1">Footer</Heading>
-    </Box>
+    ></Box>
   );
 };
 
