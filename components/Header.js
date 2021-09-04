@@ -15,7 +15,7 @@ const Header = () => {
       alignItems="center"
       justifyContent="center"
     >
-      <Heading as="h1">Locations of Intrest NZ</Heading>
+      <Heading as="h1">Locations of Interest NZ</Heading>
     </Box>
   );
 };
