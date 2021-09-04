@@ -13,7 +13,7 @@ const Line = ({ name, address, date, times, updatedAt, fontSize, h }) => {
         alignItems="center"
         mt="3"
         fontSize={fontSize}
-        h={h}
+        height={h}
       >
         {name}
       </Box>
@@ -26,7 +26,7 @@ const Line = ({ name, address, date, times, updatedAt, fontSize, h }) => {
         alignItems="center"
         mt="3"
         fontSize={fontSize}
-        h={h}
+        height={h}
       >
         {address}
       </Box>
@@ -39,7 +39,7 @@ const Line = ({ name, address, date, times, updatedAt, fontSize, h }) => {
         alignItems="center"
         mt="3"
         fontSize={fontSize}
-        h={h}
+        height={h}
       >
         {date}
       </Box>
@@ -52,7 +52,7 @@ const Line = ({ name, address, date, times, updatedAt, fontSize, h }) => {
         alignItems="center"
         mt="3"
         fontSize={fontSize}
-        h={h}
+        height={h}
       >
         {times}
       </Box>
@@ -65,7 +65,7 @@ const Line = ({ name, address, date, times, updatedAt, fontSize, h }) => {
         alignItems="center"
         mt="3"
         fontSize={fontSize}
-        h={h}
+        height={h}
       ></Box>
       <Box
         w="100%"
@@ -76,7 +76,7 @@ const Line = ({ name, address, date, times, updatedAt, fontSize, h }) => {
         alignItems="center"
         mt="3"
         fontSize={fontSize}
-        h={h}
+        height={h}
       >
         {updatedAt}
       </Box>

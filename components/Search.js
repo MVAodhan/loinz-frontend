@@ -8,11 +8,15 @@ import "gridjs/dist/theme/mermaid.css";
 const Search = () => {
   let [locations, setLocations] = useState([]);
   let arrayOfLocationsArrays = [];
-  useEffect(async () => {
-    const res = await axios.get(
-      "https://loinzapi.netlify.app/.netlify/functions/locations"
-    );
-    setLocations(res.data);
+  useEffect(() => {
+    const asyncFn = async () => {
+      const res = awaitaxios.get(
+        "https://loinzapi.netlify.app/.netlify/functions/locations"
+      );
+      setLocations(res.data);
+    };
+
+    asyncFun();
   }, []);
 
   if (locations.length > 0) {
